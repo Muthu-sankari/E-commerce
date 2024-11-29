@@ -1,0 +1,19 @@
+.Header{
+    height: 100vh;
+    background: linear-gradient(180deg,white #e1ffea22 60%);
+    display: flex;
+
+}
+.Header-left{
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+padding-left: 180px;
+line-height: 1.1;
+}
+.Header-left h2{
+    color:black ;
+    font-size:26px ;
+}
