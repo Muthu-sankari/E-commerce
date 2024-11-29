@@ -1,7 +1,8 @@
 import React from 'react'
 import './Header.css'
-import handicon from '../Assests/handicon.jpg'
-import hero from '../Assests/hero.jpg'
+import handicon from '../Assests/handicon.png'
+import arrow from '../Assests/arrow.png'
+import hero from '../Assests/hero.png'
 const Header = () => {
   return (
     <div className='Header'>
@@ -18,11 +19,11 @@ const Header = () => {
         </div>
         <div className="Header-latest">
           <div>Latest collection</div>
-          <img src='' alt=''></img>
+          <img src={arrow} alt=''></img>
         </div>
       </div>
       <div className="Header-right">
-      <img src={hero}alt=''></img>
+      <img src={hero} alt=''></img>
 
       </div>
     </div>
