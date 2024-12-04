@@ -1,10 +1,14 @@
 import React from 'react'
 import './Footer.css'
+import footer_logo from '../Assests/logo_big.png'
+import insta_icon from '../Assests/instagram_icon.png'
+import pintester_icon from '../Assests/pintester_icon.png'
+import whatsapp_icon from '../Assests/whatsapp_icon.png'
 const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-logo">
-            <img src={0} alt=''></img>
+            <img src={footer_logo} alt=''></img>
             <p>SHOPPER</p>
         </div>
         <ul className='footer-links'>
@@ -14,6 +18,22 @@ const Footer = () => {
             <li>About</li>
             <li>Contact</li>
         </ul>
+        <div className="footer-social-icon">
+          <div className="footer-icons-container">
+            <img src={insta_icon} alt=''></img>
+          </div>
+          <div className="footer-icons-container">
+            <img src={pintester_icon} alt=''></img>
+          </div>
+          <div className="footer-icons-container">
+            <img src={whatsapp_icon} alt=''></img>
+          </div>
+          </div>
+          <div className="footer-copyright">
+       <hr/>
+       <p>Copyright @2024 -All Right Reserved.</p>
+        
+        </div>
     </div>
   )
 }
