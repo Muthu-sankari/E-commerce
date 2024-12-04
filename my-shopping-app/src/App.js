@@ -7,6 +7,8 @@ import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import Login from './Pages/Login';
 
+
+
 function App  () {
   return (
     <div > <BrowserRouter>
@@ -21,6 +23,8 @@ function App  () {
         <Route path='/cart' element={<Cart/>}/> 
         <Route path='/login' element={<Login/>}/> 
         </Routes>
+   
+
         </BrowserRouter>
     </div>
   )
