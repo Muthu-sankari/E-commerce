@@ -1,0 +1,13 @@
+.productdisplay{
+    display:flex;
+    margin:0px 170 px;
+}
+.productdisplay-left{
+    display:flex;
+    gap:17px;
+}
+.productdisplay-img-list{
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}

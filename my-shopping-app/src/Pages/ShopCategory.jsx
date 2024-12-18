@@ -13,7 +13,7 @@ const ShopCategory = (props) => {
     <img className='shopcategory-banner'src={props.banner} alt=''></img> 
     <div className='shopcategory-indexsort'>
       <p>
-        <span>showing 1-12 </span>out of 36 products
+        <span>Showing 1-12 </span>out of 36 products
         </p>
       
       <div className="shopcategory-sort">
