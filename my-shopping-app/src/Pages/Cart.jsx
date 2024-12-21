@@ -3,7 +3,7 @@ import CartItems from '../components/CartItems/CartItems'
 
 const Cart = () => {
   return (
-    <div>Cart
+    <div>
       <CartItems/>
     </div>
   )
